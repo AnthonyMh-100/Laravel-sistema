@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,200&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,700&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 40vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.container .table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.container .table tbody tr td form button[type="submit"]{
+background: transparent;
+border: none;
+}
+.container .table thead{
+background: #0C134F;
+color: #E8F6EF;
+font-size: 20px;
+font-weight: 700;
+}
+
+.container .table thead th{
+padding: 14px;
+}
+.container .table tbody td{
+     padding: 14px;
+    font-weight: 700;
+}
+.container .table tbody tr:nth-child(even){
+background: #FFE194;
+
+}
+.container .span1{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 25px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.container .enlaces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+.container .enlaces a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     text-decoration: none;
+     backdrop-filter: blur(20px);
+     background: #1B9C85;
+     color: #E8F6EF;
+     padding: 5px;
+     width: 140px;
+     height: 40px;
+     font-weight: 600;
+     border-radius: 6px;
+     transition: 0.6s;
+}
+
+

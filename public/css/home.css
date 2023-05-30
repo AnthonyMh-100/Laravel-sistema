@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+
+    overflow-x: hidden;
+    background: #1B9C85;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.container{
+    background: #ffff;
+    width: 100vw;
+    height: 100vh;
+    background:#fff;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+    padding: 30px;
+}
+.container .section1{
+    width: 100%;
+    height: 10%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.container .section1 form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+.container .section1 input[type="text"]{
+   width: 250px;
+   height: 35px;
+   outline: none;
+   border-radius: 8px;
+   border: none;
+   background: #f5f0f0;
+   text-indent: 10px;
+
+}
+.container .section1 button[type="submit"]{
+ border-radius: 20px;
+ border: none;
+ background: transparent;
+ position: absolute;
+ transform: translateX(400%);
+}
+.container .section2{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    padding: 5px;
+    gap: 25px 85px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+
+}
+.container .section2 .box-products{
+    width: 350px;
+    height: 350px;
+    background: #fffdfd;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    box-shadow: 5px 5px 5px #292a2c;
+    border-radius: 10px;
+}
+.box-products span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.box-products span input[type="submit"]{
+width: 120px;
+height: 35px;
+background: #3ec550;
+border: none;
+border-radius: 8px;
+color: #fff;
+font-size: 15px;
+font-weight: 600;
+}
+.box-products span input[type="number"]{
+width: 132px;
+height: 32px;
+outline: none;
+text-indent: 12px;
+font-size: 18px;
+text-align: center;
+border-radius: 5px;
+background: #e4d8d8;
+border: none;
+}
+.box-products span input[type="submit"]:hover{
+cursor: pointer;
+background: #92d38c;
+transition: 0.8s;
+
+}
+
+.box-products .img img{
+width: 100%;
+height: 180px;
+object-fit: cover;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+
+.box-products span label{
+  font-weight: 500;
+  font-size: 20px;
+}
+.box-products span  p{
+ color: rgba(39, 39, 37, 0.867);
+ font-size: 20px;
+ font-weight: 700;
+}
+  .box-products .cantidad{
+    display: flex;
+    gap: 10px;
+}
+
+
+.container .section3{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,200&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,700&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.container{
+    width: 100vw;
+    height: 40vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    flex-direction: column;
+    gap: 15px;
+}
+.container .table{
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.container .table thead{
+background: #0C134F;
+color: #E8F6EF;
+font-size: 16px;
+font-weight: 700;
+}
+
+.container .table thead th{
+padding: 14px;
+}
+.container .table tbody td{
+     padding: 14px;
+    font-weight: 700;
+}
+.container .table tbody tr:nth-child(even){
+background: #FFE194;
+
+}
+
