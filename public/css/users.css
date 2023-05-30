@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,600;1,200&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,700&family=Source+Sans+Pro:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.menu{
+    width: 100vw;
+    height: 6vw;
+    background: #1B9C85;
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+.menu .section1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+.menu .section1 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     text-decoration: none;
+     /* border: 2.5px solid #FFE194; */
+     backdrop-filter: blur(20px);
+     color: #E8F6EF;
+     padding: 5px;
+     width: 140px;
+     height: 40px;
+     font-weight: 600;
+     border-radius: 6px;
+     transition: 0.6s;
+
+}
+.menu .section1 a:hover{
+    background: #FFE194;
+    transition: 0.6s;
+    color: #4C4C6D;
+}
+.menu .section2 form{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.menu .section2 form label{
+color: #E8F6EF;
+font-size: 22px;
+font-weight: 700;
+}
+.menu .section2 form button{
+    background: transparent;
+    width: 45px;
+    height: 45px;
+    border: none;
+}
+.menu .section2 form button:hover{
+cursor: pointer;
+}
+.container{
+    width: 100vw;
+    height: 40vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    flex-direction: column;
+    gap: 15px;
+}
+.container .table{
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.container .table thead{
+background: #0C134F;
+color: #E8F6EF;
+font-size: 16px;
+font-weight: 700;
+}
+
+.container .table thead th{
+padding: 14px;
+}
+.container .table tbody td{
+     padding: 14px;
+    font-weight: 700;
+}
+.container .table tbody tr:nth-child(even){
+background: #FFE194;
+
+}
+

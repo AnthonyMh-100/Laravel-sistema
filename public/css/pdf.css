@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ticket-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ticket-table th,
+.ticket-table td {
+    padding: 8px;
+    border-bottom: 1.5px solid #292828;
+}
+
+.ticket-table thead th {
+    /* background-color: #fffafa; */
+    font-weight: bold;
+}
+
+.ticket-table tbody td {
+    text-align: center;
+}
+
+.ticket-table tfoot td {
+    text-align: right;
+    font-weight: bold;
+}
+
+.ticket-total {
+    font-weight: bold;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
